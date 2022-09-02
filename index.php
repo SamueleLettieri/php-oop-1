@@ -2,8 +2,14 @@
 require_once __DIR__ . '/Movie.php';
 
 $movies = [];
-$movies[] = new Movie('The Martian', 'Fantascienza', '130 minuti', 'Ridley Scott');
-$movies[] = new Movie("Harry Potter and the Philosopher's Stone", 'Fantastic', '151 minuti', 'Chris Columbus');
+$movies[] = new Movie('The Martian', 'Fantascienza', '130 min', 'Ridley Scott');
+$movies[] = new Movie("Harry Potter and the Philosopher's Stone", 'fantastic, adventure', '151 min', 'Chris Columbus');
+$movies[] = new Movie("Harry Potter and the Chamber of Secrets", 'fantastic, adventure', '160 min ', 'Chris Columbus');
+$movies[] = new Movie("Harry Potter and the Prisoner of Azkaban", 'fantastic, adventure', '141 min', 'Alfonso Cuarón');
+$movies[] = new Movie("	Harry Potter and the Goblet of Fire", 'fantastic, adventure', '153 min', 'Mike Newell');
+$movies[] = new Movie("harry potter and the order of the phoenix", 'fantastic, adventure', '	137 min', 'David Yates');
+$movies[] = new Movie("Harry Potter and the Deathly Hallows - Part 1", 'fantastic, adventure', '146 min', 'David Yates');
+$movies[] = new Movie("Harry Potter and the Deathly Hallows - Part 2", 'fantastic, adventure', '130 min', '	David Yates');
 ?>
 
 <!DOCTYPE html>
